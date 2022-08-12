@@ -10,11 +10,11 @@ SRC= $(YEAR)/day_$(shell printf %02d $(DAY))
 
 .PHONY: run
 
-$(SRC)/part_$(PART).out: $(SRC)/part_$(PART).c
-	gcc -o $@ $< $(CFLAGS)
-
 $(SRC)/input.txt:
 	./input_dl.sh $(DAY) $(YEAR)
+
+$(SRC)/part_$(PART).out: $(SRC)/part_$(PART).c
+	gcc -o $@ $< $(CFLAGS)
 
 run: $(SRC)/part_$(PART).out
 	$(SRC)/part_$(PART).out
