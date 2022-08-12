@@ -2,7 +2,7 @@
 My solutions to [AoC](https://adventofcode.com) problems.
 
 # Test my solutions
-Simply clone this repo, put your session token at `env` and run this commands.
+Simply clone this repo, put your [session token](https://github.com/wimglenn/advent-of-code-wim/issues/1) at `env` and run this commands.
 
 ```
 make DAY=1 PART=1 YEAR=2015 # compile it
