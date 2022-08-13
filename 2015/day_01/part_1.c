@@ -10,12 +10,15 @@ int main() {
 	int length = strlen(input);
 	int floor_index = 0;
 
+	// iterate for each character in the input
 	for (char *c = input; c != input + length; c += 1) {
 		switch (*c) {
 
+		// if the character is '(' santa goes up
 		case '(':
 			floor_index += 1;
 			break;
+		// if the character is ')', santa goes down
 		case ')':
 			floor_index -= 1;
 			break;

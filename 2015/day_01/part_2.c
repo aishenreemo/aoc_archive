@@ -23,12 +23,16 @@ int main() {
 			break;
 		}
 
+		// if santa got on the basement
 		if (floor_index < 0) {
 			printf("Santa got on the basement for %d turns\n", i + 1);
-			break;
+			goto exit_l;
 		}
 	}
 
-	free(input);
-	return 0;
+	printf("Santa never got on the basement.");
+
+	exit_l:
+		free(input);
+		return 0;
 }
