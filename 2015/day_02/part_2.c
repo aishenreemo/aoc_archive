@@ -3,7 +3,7 @@
 #include <string.h>
 #include <limits.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 unsigned int bow_length(unsigned int l, unsigned int w, unsigned int h);
 unsigned int wrapper_length(unsigned int l, unsigned int w, unsigned int h);

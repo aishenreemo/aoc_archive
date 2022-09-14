@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 int contains_char_pair_twice(char *str);
 int contains_char_that_repeats_between_char(char *str);

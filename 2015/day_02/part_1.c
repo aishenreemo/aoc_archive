@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 unsigned int surface_area(unsigned int l, unsigned int w, unsigned int h);
 unsigned int smallest_side_area(unsigned int l, unsigned int w, unsigned int h);

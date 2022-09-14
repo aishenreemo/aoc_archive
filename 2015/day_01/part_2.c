@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 int main() {
 	char *input = load_file("2015/day_01/input.txt");

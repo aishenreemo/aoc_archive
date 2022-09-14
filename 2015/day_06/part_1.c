@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 #define GRID_MAX	999
 #define GRID_POS(X, Y)	Y * GRID_MAX + X

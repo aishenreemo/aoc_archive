@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 int count_vowels(char *str);
 int check_char_twice(char *str);

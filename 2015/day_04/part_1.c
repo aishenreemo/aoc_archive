@@ -2,8 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "../../include/load_file.h"
-#include "../../include/md5.h"
+#include "load_file.h"
+#include "md5.h"
+
 
 // https://www.devcoons.com/convert-uint8_t-array-to-char-hex-representation-in-c/
 static char hex[] = "0123456789ABCDEF";

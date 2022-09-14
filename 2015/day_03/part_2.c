@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../include/load_file.h"
+#include "load_file.h"
 
 // defines the current location of santa
 typedef struct {
